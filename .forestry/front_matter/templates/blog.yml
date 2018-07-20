@@ -25,4 +25,5 @@ fields:
   config:
     required: true
 pages:
+- content/en/blog/posts/test-forestry.md
 - content/fr/blog/posts/test-forestry.md
