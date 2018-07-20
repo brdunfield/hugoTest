@@ -13,5 +13,16 @@ fields:
   name: url
   label: URL (french only)
   description: "/blogue/posts/post-title"
+- type: text
+  name: title
+  label: Title
+  description: Post title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Publish Date
+  config:
+    required: true
 pages:
 - content/fr/blog/posts/test-forestry.md
