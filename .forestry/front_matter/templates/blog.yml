@@ -13,3 +13,5 @@ fields:
   name: url
   label: URL (french only)
   description: "/blogue/posts/post-title"
+pages:
+- content/fr/blog/posts/test-forestry.md
