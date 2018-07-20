@@ -2,4 +2,14 @@
 label: Blog
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: translationKey
+  label: Translation Key
+  description: The common post key to link English to French pages for language switching.
+  config:
+    required: true
+- type: text
+  name: url
+  label: URL (french only)
+  description: "/blogue/posts/post-title"
